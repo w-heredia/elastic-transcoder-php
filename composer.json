@@ -1,5 +1,5 @@
 {
-  "name": "knik/ElasticTranscoder",
+  "name": "knik/elastic-transcoder",
   "description": "Amazon Elastic Transcoder.",
   "keywords": ["aws", "elastic transcoder"],
   "homepage": "https://github.com/ET-NiK/ElasticTranscoder",
