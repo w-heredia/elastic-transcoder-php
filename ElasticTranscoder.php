@@ -8,7 +8,9 @@
  * Released under the MIT license
  */
 
-class AWS_ET {
+namespace knik\aws;
+
+class ElasticTranscoder {
 
   private static $AwsAccessKey;
   private static $AwsPrivateKey;
