@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "w-heredia\\aws\\": ""
+      "wheredia\\aws\\": ""
     }
   }
 }
