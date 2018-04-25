@@ -8,7 +8,7 @@
  * Released under the MIT license
  */
 
-namespace knik\aws;
+namespace wheredia\aws;
 
 class ElasticTranscoder {
 
