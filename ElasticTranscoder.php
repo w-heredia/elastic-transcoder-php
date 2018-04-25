@@ -74,13 +74,7 @@ class ElasticTranscoder {
       }
     }
     if (!empty($playlists)) {
-      $requestBody['Playlists'] = array(
-          'Format' => 'HLSv3',
-          'Name' => $playlists['Name']
-      );
-      if (array_key_exists('OutputKeys', $playlists)) {
-        $requestBody['Playlists']['OutputKeys'] = $playlists['OutputKeys'];
-      }
+      $requestBody['Playlists'] = $playlists;
     }
     if (!empty($usermetadata)) {
       $requestBody['UserMetadata'] = $usermetadata;
