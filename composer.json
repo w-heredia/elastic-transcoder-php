@@ -1,8 +1,8 @@
 {
-  "name": "knik/elastic-transcoder",
+  "name": "w-heredia/elastic-transcoder",
   "description": "Amazon Elastic Transcoder.",
   "keywords": ["aws", "elastic transcoder"],
-  "homepage": "https://github.com/ET-NiK/ElasticTranscoder",
+  "homepage": "https://github.com/w-heredia/elastic-transcoder-php",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "knik\\aws\\": ""
+      "w-heredia\\aws\\": ""
     }
   }
 }
